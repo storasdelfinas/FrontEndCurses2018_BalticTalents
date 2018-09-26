@@ -1,0 +1,23 @@
+
+body {
+    padding: 100px;
+}
+
+.module {
+    width: 200px;
+    height: 200px;
+    background: green;
+    position: absolute;
+    border: 5px solid black;
+    margin: 10px;
+}
+.module:after {
+    content: '';
+    position: absolute;
+    top: -15px;
+    left: -15px;
+    right: -15px;
+    bottom: -15px;
+    background: blue;
+    z-index: -1;
+}
